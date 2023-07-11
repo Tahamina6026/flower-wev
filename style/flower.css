@@ -1,6 +1,31 @@
-.btn-primary{
+ /* common shared style*/
+ .section-title{
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+ font-size: 40px;
+ font-style: normal;
+  font-weight: 800;
+ }
+ .section-descripton{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+ }
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .btn-primary{
     border-radius: 8px;
-    background: #E55473 #FFFFFF;
+    background: #E55473;
     border: none;
     color:#FFFFFF ;
     font-style: normal;
@@ -15,13 +40,12 @@
     background-position:bottom right
 }
 .banner {
-    padding:30px 30px 30px 50px;
+    padding:30px 30px 0px 50px;
     display: flex;
     align-items: center;
-    
-}
+    }
 .profile-pic{
-    width: 500px;
+width: 450px;
 }
 
 banner-content{
@@ -36,8 +60,7 @@ banner-title {
     font-size: 80px;
     font-style:normal;
     font-weight: 800px;
-   margin-bottom: 5px;
-     padding-bottom: 20px;
+    margin-bottom: 50px;
 }
 banner-description{
     display: flex;
@@ -47,3 +70,22 @@ banner-description{
     font-style: normal;
     font-weight: 400;
 }
+/* main section style*/
+
+/* Featured Flowers style*/
+.featured {
+    padding: 130px;
+    background:  #FFF;
+    margin: 130px;
+
+
+}
+
+
+    
+
+/* deal related style*/
+
+/* instagram related style*/
+
+/* latest deal related style*/
