@@ -16,11 +16,39 @@
     font-weight: 400;
  }
  .section-title {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+ }
+ .section-descripton{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px
+ }
+ .btn-primary{
+    color: #FFF;
+   font-family: Lato;
+   font-size: 20px;
+   font-style: normal;
+  font-weight: 700;
+   line-height: normal;
+   padding: 20px 45px;
+   align-items: center;
+ }
+ .section-title{
     color: #272727;
+    text-align: center;
     font-family: Lato;
     font-size: 40px;
    font-style: normal;
-   font-weight: 800;
+  font-weight: 800;
+  line-height: normal;
  }
  .section-descripton{
     color: rgba(39, 39, 39, 0.60);
@@ -30,19 +58,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
- }
- .btn-primary{
-    border-radius: 8px;
-    background: #E55473;
-    border: none;
-    color: #FFF;
-    font-family: Lato;
-    font-size: 20px;
-    font-style: normal;
-    padding: 20px 43px;
-    margin right: 0px;
-    margin left: 0px;
-    
  }
 
  
@@ -118,8 +133,16 @@ pink-flower{
 
 }
 /* deal related style*/
+.profile-pic {
+    width: 318px;
+    height: 420px
+}
 
 
 /* instagram related style*/
+.flower-pic{
+    align-items: center;
+
+}
 
 /* latest deal related style*/
