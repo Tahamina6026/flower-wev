@@ -155,15 +155,17 @@ banner-description{
     height: 471px;
     flex-shrink: 0;
     margin-right: 0px;
-    margin-right: 0px;
+    margin-left:  0px;
     border: 300px;
     padding: 20px 20px 0px 100px;
 }
 
 /* deal related style*/
-red-flower{
+.rose-flower{
     width: 318px;
     height: 420px;
+    background:lightpink
+    margin-left: 0px;
 }
 
 
@@ -177,11 +179,5 @@ red-flower{
 }
 
 /* latest deal related style*/
- .contact-input[type="email"]{
-    border-radius: 8px;
-    background: #FFF;
-    display: flex;
- }
- .contact-input[type="subscribe"] {
-    display: flex;
- }
+   
+ 
